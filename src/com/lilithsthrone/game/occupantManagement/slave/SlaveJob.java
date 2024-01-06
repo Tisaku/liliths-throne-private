@@ -819,6 +819,7 @@ public enum SlaveJob {
 					SlaveJobFlag.EXPERIENCE_GAINS,
 					SlaveJobFlag.INTERACTION_SEX,
 					SlaveJobFlag.INTERACTION_BONDING),
+					SlaveJobFlag.GUEST_CAN_WORK),
 			WorldType.LILAYAS_HOUSE_FIRST_FLOOR,
 			PlaceType.LILAYA_HOME_ROOM_PLAYER),
 	
