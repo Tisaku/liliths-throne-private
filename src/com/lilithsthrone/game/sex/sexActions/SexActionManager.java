@@ -9,10 +9,20 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 import com.lilithsthrone.game.sex.sexActions.baseActions.ClitAnus;
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitArmpit
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitAss
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitBreasts
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitBreastsCrotch
 import com.lilithsthrone.game.sex.sexActions.baseActions.ClitClit;
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitFeet
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitFoot
 import com.lilithsthrone.game.sex.sexActions.baseActions.ClitMouth;
 import com.lilithsthrone.game.sex.sexActions.baseActions.ClitNipple;
 import com.lilithsthrone.game.sex.sexActions.baseActions.ClitNippleCrotch;
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitSpinneret
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitThighs
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitUrethraPenis
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitUrethraVagina
 import com.lilithsthrone.game.sex.sexActions.baseActions.ClitVagina;
 import com.lilithsthrone.game.sex.sexActions.baseActions.FingerAnus;
 import com.lilithsthrone.game.sex.sexActions.baseActions.FingerBreasts;
@@ -70,6 +80,7 @@ import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfFingerCrotchNip
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfFingerMouth;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfFingerNipple;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfFingerPenis;
+import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfFingerUrethraVagina
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfFingerVagina;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfNoPen;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfPenisAnus;
@@ -79,6 +90,7 @@ import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfPenisVagina;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTailAnus;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTailMouth;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTailNipple;
+import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTailUrethraVagina
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTailVagina;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTongueAnus;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTongueMouth;
@@ -235,9 +247,19 @@ public class SexActionManager {
 				// Vagina/clit actions:
 				new Value<>("ClitClit", ClitClit.class.getFields()),
 				new Value<>("ClitVagina", ClitVagina.class.getFields()),
+				new Value<>("ClitAss", ClitAss.class.getFields()),
 				new Value<>("ClitAnus", ClitAnus.class.getFields()),
 				new Value<>("ClitNipple", ClitNipple.class.getFields()),
 				new Value<>("ClitNippleCrotch", ClitNippleCrotch.class.getFields()),
+				new Value<>("ClitClit", ClitBreasts.class.getFields()),
+				new Value<>("ClitBreasts", ClitBreastsCrotch.class.getFields()),
+				new Value<>("ClitThighs", ClitThighs.class.getFields()),
+				new Value<>("ClitFoot", ClitFoot.class.getFields()),
+				new Value<>("ClitFeet", ClitFeet.class.getFields()),
+				new Value<>("ClitUrethraVagina", ClitUrethraVagina.class.getFields()),
+				new Value<>("ClitUrethraPenis", ClitUrethraPenis.class.getFields()),
+				new Value<>("ClitSpinneret", ClitSpinneret.class.getFields()),
+				new Value<>("ClitArmpit", ClitArmpit.class.getFields()),
 		
 				// Self actions
 				new Value<>("SelfNoPen", SelfNoPen.class.getFields()),
@@ -247,6 +269,7 @@ public class SexActionManager {
 				new Value<>("SelfFingerMouth", SelfFingerMouth.class.getFields()),
 				new Value<>("SelfFingerNipple", SelfFingerNipple.class.getFields()),
 				new Value<>("SelfFingerPenis", SelfFingerPenis.class.getFields()),
+				new Value<>("SelfFingerUrethraVagina", SelfFingerUrethraVagina.class.getFields()),
 				new Value<>("SelfFingerVagina", SelfFingerVagina.class.getFields()),
 				
 				new Value<>("SelfPenisAnus", SelfPenisAnus.class.getFields()),
@@ -257,6 +280,7 @@ public class SexActionManager {
 				new Value<>("SelfTailAnus", SelfTailAnus.class.getFields()),
 				new Value<>("SelfTailMouth", SelfTailMouth.class.getFields()),
 				new Value<>("SelfTailNipple", SelfTailNipple.class.getFields()),
+				new Value<>("SelfTailUrethraVagina", SelfTailUrethraVagina.class.getFields()),
 				new Value<>("SelfTailVagina", SelfTailVagina.class.getFields()),
 
 				new Value<>("SelfTongueAnus", SelfTongueAnus.class.getFields()),
