@@ -8,10 +8,20 @@ import com.lilithsthrone.game.sex.SexAreaInterface;
 import com.lilithsthrone.game.sex.SexAreaOrifice;
 import com.lilithsthrone.game.sex.SexAreaPenetration;
 import com.lilithsthrone.game.sex.sexActions.baseActions.ClitAnus;
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitArmpit
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitAss
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitBreasts
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitBreastsCrotch
 import com.lilithsthrone.game.sex.sexActions.baseActions.ClitClit;
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitFeet
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitFoot
 import com.lilithsthrone.game.sex.sexActions.baseActions.ClitMouth;
 import com.lilithsthrone.game.sex.sexActions.baseActions.ClitNipple;
 import com.lilithsthrone.game.sex.sexActions.baseActions.ClitNippleCrotch;
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitSpinneret
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitThighs
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitUrethraPenis
+import com.lilithsthrone.game.sex.sexActions.baseActions.ClitUrethraVagina
 import com.lilithsthrone.game.sex.sexActions.baseActions.ClitVagina;
 import com.lilithsthrone.game.sex.sexActions.baseActions.FingerAnus;
 import com.lilithsthrone.game.sex.sexActions.baseActions.FingerBreasts;
@@ -69,6 +79,7 @@ import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfFingerCrotchNip
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfFingerMouth;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfFingerNipple;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfFingerPenis;
+import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfFingerUrethraVagina
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfFingerVagina;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfNoPen;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfPenisAnus;
@@ -78,6 +89,7 @@ import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfPenisVagina;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTailAnus;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTailMouth;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTailNipple;
+import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTailUrethraVagina
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTailVagina;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTongueAnus;
 import com.lilithsthrone.game.sex.sexActions.baseActionsSelf.SelfTongueMouth;
@@ -482,9 +494,19 @@ public class SexActionPresets {
 		// Vagina/clit actions:
 		sexActions.add(ClitClit.class);
 		sexActions.add(ClitVagina.class);
+		sexActions.add(ClitAss.class);
 		sexActions.add(ClitAnus.class);
 		sexActions.add(ClitNipple.class);
 		sexActions.add(ClitNippleCrotch.class);
+		sexActions.add(ClitBreasts.class);
+		sexActions.add(ClitBreastsCrotch.class);
+		sexActions.add(ClitThighs.class);
+		sexActions.add(ClitFoot.class);
+		sexActions.add(ClitFeet.class);
+		sexActions.add(ClitUrethraVagina.class);
+		sexActions.add(ClitUrethraPenis.class);
+		sexActions.add(ClitSpinneret.class);
+		sexActions.add(ClitArmpit.class);
 		
 		// Self actions:
 		selfActions.add(SelfNoPen.class);
@@ -494,6 +516,7 @@ public class SexActionPresets {
 		selfActions.add(SelfFingerMouth.class);
 		selfActions.add(SelfFingerNipple.class);
 		selfActions.add(SelfFingerPenis.class);
+		selfActions.add(SelfFingerUrethraVagina.class);
 		selfActions.add(SelfFingerVagina.class);
 		selfActions.add(SelfPenisAnus.class);
 		selfActions.add(SelfPenisMouth.class);
@@ -502,6 +525,7 @@ public class SexActionPresets {
 		selfActions.add(SelfTailAnus.class);
 		selfActions.add(SelfTailMouth.class);
 		selfActions.add(SelfTailNipple.class);
+		selfActions.add(SelfTailUrethraVagina.class);
 		selfActions.add(SelfTailVagina.class);
 		selfActions.add(SelfTongueAnus.class);
 		selfActions.add(SelfTongueMouth.class);
